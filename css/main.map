@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_partial.scss",
+		"../scss/_mixin.scss"
+	],
+	"sourcesContent": [
+		"@import '_partial.scss';\r\n@import '_mixin.scss';\r\n\r\n$main-color:#159;\r\n$bg-color:#542;\r\n\r\nbody{\r\n\t\r\n\tbackground:$bg-color;\r\n\tfont-family: arial;\r\n\tfont-size:16px;\r\n\tfont-weight:200px;\r\n\tmargin:0px;\r\n\tpadding:15px;\r\n\tcolor: $main-color;\r\n}\r\n\r\nul{\r\n\t\r\n\tcolor:#333;\r\n\tlist-style-type:none;\r\n\r\n    li\r\n    {\r\n       padding:20px;\r\n\r\n      a\r\n\r\n      {\r\n       \r\n      color:yellow; \r\n      text-decoration:none;\r\n\r\n      }\r\n\r\n\t}\r\n\r\n}\r\n\r\n$size: 20px;\r\n$color1:green;\r\n$color2:red; \r\n\r\n\r\n#box1\r\n{\r\n\r\nwidth:400px; height:300px; border: 5px solid #aaa; \r\n\r\nfont-size: $size+25; \r\n\r\n$color: $color1+ $color2;\r\n\r\n}\r\n\r\n#box2\r\n{\r\n\r\nwidth:400px; height:300px; border: 5px solid #aaa; \r\n\r\nfont-size: $size+15;\r\n\r\n$color: $color1+ $color2;\r\n\r\n}\r\n\r\n#box1{@include border-radius(20px);}\r\n\r\n#box2{@include border-radius(25px);}\r\n\r\n\r\n\r\n\r\n",
+		"header{\r\n\t\r\n\tcolor: green;\r\n\tfont-size:40px;\r\n\ttext-align:center;\r\n}",
+		"@mixin border-radius($radius)\r\n\r\n{\r\n  -ms-border-radius:$radius;\r\n  -webkit-border-radius:$radius;\r\n  -moz-border-radius:$radius;\r\n  border-radius: $radius;\r\n\r\n}"
+	],
+	"mappings": ";ACAA,AAAA,MAAM,CAAA;EAEL,KAAK,EAAE,KAAM;EACb,SAAS,EAAC,IAAK;EACf,UAAU,EAAC,MAAO;CAClB;;;ADCD,AAAA,IAAI,CAAA;EAEH,UAAU,EAJD,IAAI;EAKb,WAAW,EAAE,KAAM;EACnB,SAAS,EAAC,IAAK;EACf,WAAW,EAAC,KAAM;EAClB,MAAM,EAAC,GAAI;EACX,OAAO,EAAC,IAAK;EACb,KAAK,EAXM,IAAI;CAYf;;;AAED,AAAA,EAAE,CAAA;EAED,KAAK,EAAC,IAAK;EACX,eAAe,EAAC,IAAK;CAiBrB;;;AApBD,AAKI,EALF,CAKE,EAAE,CACF;EACG,OAAO,EAAC,IAAK;CAWlB;;;AAlBF,AASM,EATJ,CAKE,EAAE,CAIA,CAAC,CAED;EAEA,KAAK,EAAC,MAAO;EACb,eAAe,EAAC,IAAK;CAEpB;;;AAWP,AAAA,KAAK,CACL;EAEA,KAAK,EAAC,KAAM;EAAE,MAAM,EAAC,KAAM;EAAE,MAAM,EAAE,cAAe;EAEpD,SAAS,EAAE,IAAK;CAIf;;;AAED,AAAA,KAAK,CACL;EAEA,KAAK,EAAC,KAAM;EAAE,MAAM,EAAC,KAAM;EAAE,MAAM,EAAE,cAAe;EAEpD,SAAS,EAAE,IAAK;CAIf;;;AAED,AAAA,KAAK,CAAA;EE/DH,iBAAiB,EF+DU,IAAI;EE9D/B,qBAAqB,EF8DM,IAAI;EE7D/B,kBAAkB,EF6DS,IAAI;EE5D/B,aAAa,EF4Dc,IAAI;CAAI;;;AAErC,AAAA,KAAK,CAAA;EEjEH,iBAAiB,EFiEU,IAAI;EEhE/B,qBAAqB,EFgEM,IAAI;EE/D/B,kBAAkB,EF+DS,IAAI;EE9D/B,aAAa,EF8Dc,IAAI;CAAI",
+	"names": []
+}

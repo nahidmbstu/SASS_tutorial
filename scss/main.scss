@@ -1,0 +1,73 @@
+@import '_partial.scss';
+@import '_mixin.scss';
+
+$main-color:#159;
+$bg-color:#542;
+
+body{
+	
+	background:$bg-color;
+	font-family: arial;
+	font-size:16px;
+	font-weight:200px;
+	margin:0px;
+	padding:15px;
+	color: $main-color;
+}
+
+ul{
+	
+	color:#333;
+	list-style-type:none;
+
+    li
+    {
+       padding:20px;
+
+      a
+
+      {
+       
+      color:yellow; 
+      text-decoration:none;
+
+      }
+
+	}
+
+}
+
+$size: 20px;
+$color1:green;
+$color2:red; 
+
+
+#box1
+{
+
+width:400px; height:300px; border: 5px solid #aaa; 
+
+font-size: $size+25; 
+
+$color: $color1+ $color2;
+
+}
+
+#box2
+{
+
+width:400px; height:300px; border: 5px solid #aaa; 
+
+font-size: $size+15;
+
+$color: $color1+ $color2;
+
+}
+
+#box1{@include border-radius(20px);}
+
+#box2{@include border-radius(25px);}
+
+
+
+

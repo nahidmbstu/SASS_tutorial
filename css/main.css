@@ -1,0 +1,68 @@
+/* line 1, C:/Users/Zinat/Desktop/new/scss/_partial.scss */
+header {
+  color: green;
+  font-size: 40px;
+  text-align: center;
+}
+
+/* line 7, C:/Users/Zinat/Desktop/new/scss/main.scss */
+body {
+  background: #542;
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 200px;
+  margin: 0px;
+  padding: 15px;
+  color: #159;
+}
+
+/* line 18, C:/Users/Zinat/Desktop/new/scss/main.scss */
+ul {
+  color: #333;
+  list-style-type: none;
+}
+
+/* line 23, C:/Users/Zinat/Desktop/new/scss/main.scss */
+ul li {
+  padding: 20px;
+}
+
+/* line 27, C:/Users/Zinat/Desktop/new/scss/main.scss */
+ul li a {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* line 45, C:/Users/Zinat/Desktop/new/scss/main.scss */
+#box1 {
+  width: 400px;
+  height: 300px;
+  border: 5px solid #aaa;
+  font-size: 45px;
+}
+
+/* line 56, C:/Users/Zinat/Desktop/new/scss/main.scss */
+#box2 {
+  width: 400px;
+  height: 300px;
+  border: 5px solid #aaa;
+  font-size: 35px;
+}
+
+/* line 67, C:/Users/Zinat/Desktop/new/scss/main.scss */
+#box1 {
+  -ms-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 69, C:/Users/Zinat/Desktop/new/scss/main.scss */
+#box2 {
+  -ms-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+/*# sourceMappingURL=../css/main.map */

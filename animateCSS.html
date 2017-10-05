@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<h1 class ="title">welcome </h1>
+
+<script>
+
+
+$( ".title" ).hover(
+  function() 
+{
+  $('.title').addClass('animated bounce').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+   function() 
+{
+    
+$('.title').removeClass('animated bounce');
+    
+});
+});
+
+
+</script>
+
